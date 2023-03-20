@@ -1,0 +1,142 @@
+/* START OF GRADES.html CSS */
+.nav_container ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 4px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.nav_container {
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 10;
+	border: 2px solid rgb(0, 255, 0);
+	background-color: #5f5f5f;
+}
+
+.nav_container ul li {
+	float: left;
+	display: inline;
+	margin: 0 20px;
+
+}
+
+.nav_container ul li a {
+	display: block;
+	color: #ffff;
+	text-align: center;
+	padding: 13px 16px;
+	text-decoration: none;
+	font-size: 20px;	
+}
+
+.nav_container ul li a:hover {
+	font-weight: 600;
+}
+
+.nav_container .logo{
+	width: 140px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.container{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-blend-mode: lighten;
+}
+
+ .div_p{
+	text-overflow: unset;
+	text-align: end!important;
+	font-family: Tahoma, Arial;
+	font-size: larger;
+	font-style: Arial;
+	font-stretch: wider;
+	font-weight: bold;
+	color: white;
+ }
+ 
+ .button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn {
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: black;
+	color: black;
+}
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 1px solid rgb(0, 255, 0);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Grades */
+.Gbody{
+	justify-content: space-evenly;
+	background-image: linear-gradient(#ebf4f5, #b5c6e0);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	background-color: #b5c6e0;
+}
+
+.table-grade tr, td{
+	border: 2px solid white;
+	text-align: center;
+	padding: 30px 30px;
+	font-size: larger;
+	font-family: Arial;
+	color: black;
+	
+}
+
+th{
+	font-size: larger;
+	font-family: Arial;
+}
+
+.div-container.grade {
+	border: 2px solid rgb(255, 255, 255);
+	justify-content: center;
+}
+
+.table-grade {
+	margin: auto;
+}
